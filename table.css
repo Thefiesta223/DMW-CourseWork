@@ -1,0 +1,92 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(45deg, #1490bd, #5f2c82);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    background: rgba(255,255,255,0.05);
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(34, 34, 59, 0.12);
+    padding: 40px 0;
+}
+
+h2, h1, h3 {
+    text-align: center;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.15);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 16px 22px;
+    text-align: left;
+    min-width: 120px;
+    transition: background 0.25s;
+}
+
+th {
+    background: rgba(80, 80, 120, 0.45);
+    color: #ffffff ;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #fff2;
+}
+
+tr {
+    transition: background 0.2s;
+}
+
+tr:nth-child(even) {
+    background: rgba(255,255,255,0.10);
+}
+
+tr:hover, tr:focus-within {
+    background: rgba(255,255,255,0.22);
+}
+
+td {
+    color: #ffffff;
+    font-size: 25px;
+    border-bottom: 1px solid #fff2;
+    font-style: bold;
+}
+
+/* Highlight column on hover */
+td:hover, th:hover {
+    background: rgba(255,255,255,0.25);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .container, table {
+        width: 100%;
+    }
+    th, td {
+        padding: 10px;
+        min-width: 80px;
+    }
+}

@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f8fc;
+    color: #222;
+}
+
+header {
+    background: #eaf1fc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo img {
+    height: 80px;
+    margin-right: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0074e8;
+    font-weight: 500;
+}
+
+
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+.about h1 {
+    color: #0074e8;
+}
+
+.about p {
+    max-width: 900px;
+    margin: 0 auto;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+
+.services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.service-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.service-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.service-card h3 {
+    color: #0074e8;
+    margin-top: 15px;
+}
+footer {
+    background-color: #0074e8;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+        .our-services {
+            background-color: #f9f9f9;
+            padding: 60px 20px;
+            border-top: 2px solid #e0e0e0;
+        }
+
+        .our-services h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            color: #333;
+        }
+
+        .our-services div[id] {
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease;
+        }
+
+        .our-services div[id]:hover {
+            transform: scale(1.02);
+        }
+
+        .our-services h3 {
+            font-size: 1.8em;
+            color: #005bac;
+            margin-bottom: 15px;
+        }
+
+        .our-services p {
+            font-size: 1.1em;
+            line-height: 1.7;
+            color: #555;
+        }
+
+        .service-card a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .services {
+            margin-bottom: 60px;
+        }
+
+        .social-icons a {
+             left: -500px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  color: #000000;
+  background: transparent;
+  border-radius: 50%;
+  margin: 3rem 1.5rem 3rem 0;
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+
+
+  border: 2px solid transparent;
+  background-image: 
+    linear-gradient(rgb(245, 192, 192), rgb(175, 193, 197)), 
+    radial-gradient(circle at top left, #006eff, #6a00b7, #3005f1);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 0 0 8px rgba(0, 4, 255, 0.6);
+}
+
+.social-icons a:hover {
+  color: white; 
+  background-color: #ffffff;
+  transform: scale(1.3) translateY(-5px);
+ 
+}
+.social-p {
+  position: fixed;
+  bottom: 95px; /* Adjust based on social icon position */
+  left:  100px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #ffffff;
+  z-index: 1000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}

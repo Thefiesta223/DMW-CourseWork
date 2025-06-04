@@ -1,0 +1,49 @@
+.record-form-container {
+    max-width: 600px;
+    margin: 60px auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.record-form-container h2 {
+    text-align: center;
+    color: #0074e8;
+    margin-bottom: 30px;
+}
+
+.record-form-container label {
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+    font-weight: 500;
+}
+
+.record-form-container input[type="text"],
+.record-form-container input[type="number"],
+.record-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+    background-color: #f9f9f9;
+}
+
+.record-form-container input[type="submit"] {
+    width: 100%;
+    background-color: #0074e8;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.record-form-container input[type="submit"]:hover {
+    background-color: #005bb5;
+}

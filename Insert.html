@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medical Record Entry Form</title>
+    
+    <link rel="stylesheet" href="Insertform.css"> <!-- Our new form-specific styles -->
+</head>
+<body>
+
+<div class="record-form-container">
+    <h2>Enter Medical Record</h2>
+    <form action="DoInsert.php" method="post">
+        <label for="user_id">User ID:</label>
+        <input type="number" name="user_id" id="user_id" required>
+
+        <label for="patient_id">Patient ID:</label>
+        <input type="text" name="patient_id" id="patient_id" required>
+
+        <label for="name">Patient Name:</label>
+        <input type="text" name="name" id="name" required>
+
+        <label for="prescription">Prescription:</label>
+        <textarea name="prescription" id="prescription" rows="3" required></textarea>
+
+        <label for="symptoms">Symptoms:</label>
+        <textarea name="symptoms" id="symptoms" rows="3" required></textarea>
+
+        <label for="patient_address">Patient Address:</label>
+        <textarea name="patient_address" id="patient_address" rows="2" required></textarea>
+
+        <label for="doctor_name">Doctor Name:</label>
+        <input type="text" name="doctor_name" id="doctor_name" required>
+
+        <input type="submit" value="Submit Medical Record">
+    </form>
+</div>
+
+</body>
+</html>
+
